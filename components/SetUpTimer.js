@@ -1,6 +1,6 @@
 /*
   Name: SetUpTimer.js
-  Desc: Shows the SetUpTimer page wallpaper (1), the rect to setup timer from the TimerSetup.js (2), 
+  Desc: Shows the SetUpTimer page wallpaper (1), the rect to setup a timer from the TimerSetup.js (2), 
         which takes the user to the Countdown page once a valid input is given (3), and the bottom menu (4) 
 */
 import BackgroundSetUp from "./functions/BackgroundSetUp";
