@@ -31,7 +31,7 @@ export default function Countdown({ theme }) {
   const [isRunning, setIsRunning] = useState(totalSeconds > 0); //  If the timer's time is set, set isRunning to true
   const intervalRef = useRef(null);
 
-  //  When the Countdown page is opened, show a motivational quote
+  //  When the Countdown page gets opened, show a motivational quote
   useEffect(() => {
     setQuote(getRandomMotivationalQuote());
   }, []);
