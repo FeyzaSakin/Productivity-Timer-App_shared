@@ -2,7 +2,7 @@
   Name: Countdown.js
   Desc: 
         1. Shows the Countdown page wallpaper (1), a motivational quote (2), the Spotify icon (3), the timer rectangle with time and play/pause button (4), and the bottom menu (5)
-        2. Shows the remaining secs. Once the timer is ended, it shows a message
+        2. Shows the remaining secs. Once the timer ends, it shows a message
 */
 import {View, Text, StyleSheet, Alert, TouchableOpacity, Image, Linking, } from "react-native";
 import BackgroundSetUp from "./functions/BackgroundSetUp";
